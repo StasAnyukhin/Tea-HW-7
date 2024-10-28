@@ -1192,7 +1192,7 @@ footer {
   }
 
   .nav {
-    width: 200px;
+    width: 40px;
     left: 0px;
   }
 
@@ -1301,6 +1301,57 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
+  }
+
+  .Blog {
+    width: 640px;
+    height: 1029px;
+    top: 2434px;
+    left: 63px;
+    position: absolute;
+    display: grid;
+  }
+  .cards1 {
+    width: 542px;
+    height: 180px;
+    top: 90px;
+    left: 64px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .cards2 {
+    width: 542px;
+    height: 180px;
+    top: 510px;
+    left: 64px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .cards3{
+    width: 542px;
+    height: 180px;
+    top: 300px;
+    left: 162px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .cards4 {
+    width: 542px;
+    height: 180px;
+    top: 720px;
+    left: 162px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .knopka1 {
+    width: 149px;
+      height: 51px;
+      top: 950px;
+      left: 280px;
+      padding: 12px 41px 12px 41px;
+      gap: 10px;
+      border: 1px 0px 0px 0px;
+      opacity: 0px;
   }
 
 }
