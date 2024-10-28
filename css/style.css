@@ -92,60 +92,30 @@ a {
   width: 582px;
   height: 27px;
   top: 57px;
-  left: 308.38px;
+  left: 313px;
   gap: 65px;
-  opacity: 0px;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.51px;
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
-  display: flex;
   position: absolute;
 }
 
-/* burger меню */
-@media (max-width: 768px) {
-  .burger {
-    position: relative;
-    border: none;
-    background: transparent;
-    width: 10px;
-    height: 26px;
-    display: block;
-    width: 40px;
-  }
-
-  ul {
-    display: none;
-  }
-  .burger::before,
-  .burger::after {
-    content: '';
-    left: 0;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    border-radius: 10px;
-    background: #000;
-  }
-
-  .burger::before {
-    top: 0;
-    box-shadow: 0 11px 0 #000;
-  }
-
-  .burger::after {
-    bottom: 0;
-  }
+.menu-list {
+  width: 582px;
+  height: 27px;
+  top: 2px;
+  left: -43px;
+  gap: 65px;
+  position: absolute;
+  display: flex;
 }
 
 .nav-Black {
   width: 50px;
   height: 27px;
-  padding: 0px 25px 2px 0px;
   gap: 0px;
   opacity: 0px;
 }
@@ -153,7 +123,6 @@ a {
 .nav-Green {
   width: 58px;
   height: 27px;
-  padding: 0px 65px 2px 0px;
   gap: 0px;
   opacity: 0px;
 }
@@ -161,7 +130,6 @@ a {
 .nav-White {
   width: 54px;
   height: 27px;
-  padding: 0px 67px 2px 0px;
   gap: 0px;
   opacity: 0px;
 }
@@ -169,7 +137,6 @@ a {
 .nav-Oolong {
   width: 69px;
   height: 27px;
-  padding: 0px 65px 2px 0px;
   gap: 0px;
   opacity: 0px;
 }
@@ -177,7 +144,6 @@ a {
 .nav-Puer {
   width: 64px;
   height: 27px;
-  padding: 0px 20px 2px 0px;
   gap: 0px;
   opacity: 0px;
 }
@@ -217,6 +183,44 @@ a {
   height: 22px;
   gap: 0px;
   opacity: 0px;
+}
+
+/* burger меню */
+@media (max-width: 768px) {
+  .burger {
+    position: relative;
+    border: none;
+    background: transparent;
+    width: 10px;
+    height: 26px;
+    display: block;
+    width: 40px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .burger::before,
+  .burger::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    background: #000;
+  }
+
+  .burger::before {
+    top: 0;
+    box-shadow: 0 11px 0 #000;
+  }
+
+  .burger::after {
+    bottom: 0;
+  }
 }
 
 .text-align {
@@ -1267,22 +1271,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 768px) {
   body {
     width: 767px;
@@ -1301,10 +1289,15 @@ footer {
     left: 0px;
   }
 
+  .menu-list {
+    display: none;
+  }
+
   .data {
     width: 130px;
     height: 29px;
-    left: 450px;
+    top: 0px;
+    left: 455px;
   }
 
   .logo {
@@ -1398,8 +1391,8 @@ footer {
   .frame {
     width: 636px;
     height: 169px;
-    top: 10px;
-    left: -37px;
+    top: 150px;
+    left: 85px;
     gap: 76px;
     margin: auto;
     display: flex;
@@ -1450,13 +1443,102 @@ footer {
   }
   .knopka1 {
     width: 149px;
-      height: 51px;
-      top: 950px;
-      left: 280px;
-      padding: 12px 41px 12px 41px;
-      gap: 10px;
-      border: 1px 0px 0px 0px;
-      opacity: 0px;
+    height: 51px;
+    top: 950px;
+    left: 280px;
+    padding: 11px 40px 11px 40px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+  }
+  .main_page {
+    width: 768px;
+    height: 525px;
+    top: 3584px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .main-title {
+    width: 768px;
+    height: 525px;
+    top: 3584px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .main_content {
+    width: 640px;
+    height: 120px;
+    top: 180px;
+    left: 65px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .tea1 {
+    width: 673px;
+    height: 417.55px;
+    top: 90px;
+    left: 95px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .confidentiality {
+    width: 580px;
+    height: 117px;
+    top: 400px;
+    left: 50px;
+  }
+
+
+  .prioriti {
+    width: 638px;
+    height: 489px;
+    top: 4228px;
+    left: 65px;
+    display: grid;
+    position: absolute;
+  }
+  .prioriti1 {
+    width: 207px;
+    height: 48px;
+    top: 18px;
+    left: 250px;
+
+  }
+  .frame-prioriti1 {
+    width: 638px;
+    height: 178px;
+    top: 336px;
+    left: 65px;
+    gap: 133px;
+    opacity: 0px;
+    display: flex;
+  }
+  .group1, .group2 {
+    width: 638px;
+    height: 178px;
+    top: -234px;
+    left: -34px;
+    gap: 133px;
+    opacity: 0px;
+    position: absolute;
+  }
+  .group3, .group4 {
+    width: 636px;
+    height: 172.99px;
+    top: -30px;
+    left: -650px;
+    gap: 89px;
+    opacity: 0px;
+    position: absolute;
+  }
+
+
+  footer {
+    width: 768px;
+    height: 631px;
+    top: 4837px;
+    gap: 0px;
+    opacity: 0px;
   }
 
 }
