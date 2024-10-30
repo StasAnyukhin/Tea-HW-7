@@ -12,18 +12,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"rel="stylesheet"/>
     <link rel="stylesheet" href="./css/style.css" />
     <title>Магазин Чая</title>
+    <script defer src="./js/scripts.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="header-top">
         <div class="logo">
-          <img src="./images/icons/Group 3.svg"alt="logotype">
+          <img src="./images/icons/Group3.svg"alt="logotype">
           <span class="text">TealuxE</span>
         </div>
         <div class="nav">
           <!-- burger меню -->
-          <!-- <input type="burger" id="menu-list" class="burger-checkbox"> -->
-          <label for="burger" class="burger"></label>
+          <button class="header__burger-btn" id="burger">
+            <span></span><span></span><span></span>
+          </button>
           <ul class="menu-list">
             <a href="#" id="black" class="nav-Black">Black</a>
             <a href="#" id="green" class="nav-Green">Green</a>
@@ -32,14 +34,14 @@
             <a href="#" id="puerh" class="nav-Puer">Pu-erh</a>
           </ul>
           <div class="data">
-          <div class="account-none">
-            <a href="#"><img src="./images/icons/icon.svg"alt="shop" /></a>
-            <a href="#"><img src="./images/icons/icon-1.svg" alt="profile" /></a>
+            <div class="account-none">
+              <a href="#"><img src="./images/icons/icon.svg"alt="shop" /></a>
+              <a href="#"><img src="./images/icons/icon-1.svg" alt="profile" /></a>
+            </div>
+            <div class="search">
+              <a href="#"><img src="./images/icons/icon-2.svg" alt="search" /></a>
+            </div>
           </div>
-          <div class="search">
-            <a href="#"><img src="./images/icons/icon-2.svg" alt="search" /></a>
-          </div>
-        </div>
         </div>
         
       </div>
@@ -86,7 +88,6 @@
           </div>
         </div>
       </div>
-      <!-- сделать @media с этого места -->
       <div class="Blog"> 
         <h2 class="title">Our Tea Blog</h2>
           <div class="cards1">
@@ -172,6 +173,8 @@
       </div>
       
     </div>
+    <script src="./js/scripts.js"></script>
+
   </body>
   <!-- сделать @media с этого места -->
 <footer>
