@@ -16,26 +16,39 @@
   </head>
   <body>
     <div class="container">
-      <div class="header-top">
-        <div class="logo">
-          <img src="./images/icons/Group3.svg"alt="logotype">
-          <span class="text">TealuxE</span>
-        </div>
-        <div class="nav">
-          <!-- burger меню -->
+      <header class="header">
+        <div class="header-top header-top_none">
           <button class="header__burger-btn" id="burger">
-            <span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
           </button>
-          <ul class="menu-list">
-            <a href="#" id="black" class="nav-Black">Black</a>
-            <a href="#" id="green" class="nav-Green">Green</a>
-            <a href="#" id="white" class="nav-White">White</a>
-            <a href="#" id="oolong" class="nav-Oolong">Oolong</a>
-            <a href="#" id="puerh" class="nav-Puer">Pu-erh</a>
-          </ul>
+          <div class="logo">
+            <img src="./images/icons/Group3.svg"alt="logotype">
+            <span class="text">TealuxE</span>
+          </div>
+          <!-- burger меню -->
+          <div class="menu">
+            <ul class="menu-list">
+              <a href="#" id="black" class="nav-Black">Black</a>
+              <a href="#" id="green" class="nav-Green">Green</a>
+              <a href="#" id="white" class="nav-White">White</a>
+              <a href="#" id="oolong" class="nav-Oolong">Oolong</a>
+              <a href="#" id="puerh" class="nav-Puer">Pu-erh</a>
+            </ul>
+            <hr>
+            <nav class="sub-menu-our">
+              <a href="#">Contact Us </a>
+              <a href="#">Our Blog</a>
+              <a href="#">Shipping and Delivery</a>
+            </nav>
+            <div class="data1">
+                <a href="#"><img src="./images/icons/icon.svg" alt="shop" /></a>
+                <a href="#"><img src="./images/icons/icon-1.svg" alt="profile" /></a>
+                <a href="#"><img src="./images/icons/icon-2.svg" alt="search" /></a>
+            </div>
+          </div>
           <div class="data">
             <div class="account-none">
-              <a href="#"><img src="./images/icons/icon.svg"alt="shop" /></a>
+              <a href="#"><img src="./images/icons/icon.svg" alt="shop" /></a>
               <a href="#"><img src="./images/icons/icon-1.svg" alt="profile" /></a>
             </div>
             <div class="search">
@@ -43,8 +56,7 @@
             </div>
           </div>
         </div>
-        
-      </div>
+      </header>
         <div class="text-align">
           <h1>A cup of tea is a moment of calm in the chaos of life</h1>
           <h3 class="text-align2">Wide selection of high-quality teas from all over the  world, carefully curated by tea experts</h3>
@@ -173,7 +185,6 @@
       </div>
       
     </div>
-    <script src="./js/scripts.js"></script>
 
   </body>
   <!-- сделать @media с этого места -->
